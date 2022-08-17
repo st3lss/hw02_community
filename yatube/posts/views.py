@@ -25,5 +25,5 @@ def group_posts(request, slug):
         'group': group,
         'posts': posts,
     }
-    
+
     return render(request, template, context)
